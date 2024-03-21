@@ -1,5 +1,4 @@
-
-// import './App.css';
+import './App.css';
 import CakeShopContainer from './containers/CakeShopContainer';
 
 function App() {
