@@ -54,9 +54,9 @@ const CakeShopContainer = () => {
     return(
         <>
         <h2>Cakes</h2>
-        <CakeCard cakeName={cakes[0]}/>
-        <CakeCard cakeName={cakes[1]}/>
-        <CakeCard cakeName={cakes[2]}/>
+        <CakeCard nameOfCake={cakes[0]}/>
+        <CakeCard nameOfCake={cakes[1]}/>
+        <CakeCard nameOfCake={cakes[2]}/>
         <hr/>
         <h3>Average Rating of Cakes: {(cakes[0].rating + cakes[1].rating + cakes[2].rating) / 3}</h3>
         </>
