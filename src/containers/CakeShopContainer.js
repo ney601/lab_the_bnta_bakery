@@ -58,9 +58,9 @@ const CakeShopContainer = () => {
         <CakeCard cakeName={cakes[1]}/>
         <CakeCard cakeName={cakes[2]}/>
         <hr/>
-        
+        <h3>Average Rating of Cakes: {(cakes[0].rating + cakes[1].rating + cakes[2].rating) / 3}</h3>
         </>
-    )
+    );
 }
 
 export default CakeShopContainer;
