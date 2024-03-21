@@ -1,3 +1,7 @@
+import { useState } from "react";
+import CakeCard from "../components/CakeCard";
+
+
 const CakeShopContainer = () => {
 
     const [cakes, setCakes] = useState(
@@ -57,8 +61,7 @@ const CakeShopContainer = () => {
         <CakeCard nameOfCake={cakes[0]}/>
         <CakeCard nameOfCake={cakes[1]}/>
         <CakeCard nameOfCake={cakes[2]}/>
-        <hr/>
-        <h3>Average Rating of Cakes: {(cakes[0].rating + cakes[1].rating + cakes[2].rating) / 3}</h3>
+        <h4>Average Rating of Cakes: {(cakes[0].rating + cakes[1].rating + cakes[2].rating) / 3}</h4>
         </>
     );
 }
